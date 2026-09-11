@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValidaCPF-CNPJ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4906e2b7fc7b703c2b8170117de508937bf46ce2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValidaCPF-CNPJ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValidaCPF-CNPJ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
