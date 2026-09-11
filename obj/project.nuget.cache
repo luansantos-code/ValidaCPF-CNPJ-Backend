@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FmKDGrp57/s=",
+  "success": true,
+  "projectFilePath": "/Users/luansantos/Documents/Projetos/ValidaCPF-CNPJ/ValidaCPF-CNPJ/ValidaCPF-CNPJ.csproj",
+  "expectedPackageFiles": [
+    "/Users/luansantos/.nuget/packages/microsoft.aspnetcore.openapi/10.0.11/microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "/Users/luansantos/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
