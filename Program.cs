@@ -1,16 +1,17 @@
+using ValidaCPF_CNPJ.Services;
+
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddOpenApi();
-
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+app.MapPost("api/valida-cpf", (CpfRequest request) =>
 {
-    app.MapOpenApi();
-}
+    if (ValidadorCPF.IsValid(request.cpf))
+    {
+        return Results.Ok(new { cpf = request.cpf, valido = true, mensagem = "CPF válido." });
+    }
 
-app.UseHttpsRedirection();
-
+    return Results.BadRequest(new { cpf = request.cpf, valido = false, mensagem = "CPF inválido." });
+});
 app.Run();
 
-
+record CpfRequest(string cpf);
